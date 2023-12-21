@@ -7,4 +7,4 @@
 
 #### Here were used such techniques as event handling, DOM manipulation, conditional statements and loops, random number generation, working with arrays and others
 
-    - [DEMO LINK](https://tndeineka.github.io/2048-game/)
+ - [DEMO LINK](https://tndeineka.github.io/2048-game/)
