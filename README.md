@@ -1,5 +1,7 @@
 # JS 2048 - Landing page
 
+Implemented a popular game using pure JS, HTML, and CSS. Implemented the game mechanics, and scoring system similar to the original game experience.
+
 ## The project was created using:
 - Javascript
 - HTML5
