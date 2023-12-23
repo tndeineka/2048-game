@@ -1,4 +1,12 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+# JS 2048 - Landing page
+
+Implemented a popular game using pure JS, HTML, and CSS. Implemented the game mechanics, and scoring system similar to the original game experience.
+
+## The project was created using:
+- Javascript
+- HTML5
+- CSS3 (SCSS)
+
+#### Here were used such techniques as event handling, DOM manipulation, conditional statements and loops, random number generation, working with arrays and others
+
+ - [DEMO LINK](https://tndeineka.github.io/2048-game/)
