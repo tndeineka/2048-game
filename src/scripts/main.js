@@ -369,14 +369,8 @@ class Game extends Move {
   }
 
   handleButtonClick() {
-    this.isGameStart = !this.isGameStart;
-
-    if (this.isGameStart) {
-      this.startGame();
-    } else {
-      this.restartGame();
-    }
-
+    this.restartGame();
+    this.startGame();
     this.updateCells();
   }
 }
