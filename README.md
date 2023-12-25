@@ -1,4 +1,4 @@
-# JS 2048 - Landing page
+# Game 2048
 
 Implemented a popular game using pure JS, HTML, and CSS. Implemented the game mechanics, and scoring system similar to the original game experience.
 
