@@ -370,6 +370,7 @@ class Game extends Move {
 
   handleButtonClick() {
     this.restartGame();
+    this.updateScore();
     this.startGame();
     this.updateCells();
   }
