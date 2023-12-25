@@ -126,17 +126,21 @@ class BaseClass {
       = [this.getRandomIndex(), this.getRandomIndex()];
     const cellValue = this.fields[rowIndex][cellIndex];
 
+    const randomChance = Math.ceil(Math.random() * 10);
+
+    const newValue = randomChance === 1 ? 4 : 2;
+
     if (cellValue) {
       return this.getRandomIndexes();
     } else {
-      return [rowIndex, cellIndex];
+      return [rowIndex, cellIndex, newValue];
     }
   }
 
   setRandomNumbers() {
-    const [rowIndex, cellIndex] = this.getRandomIndexes();
+    const [rowIndex, cellIndex, newValue] = this.getRandomIndexes();
 
-    this.fields[rowIndex][cellIndex] = 2;
+    this.fields[rowIndex][cellIndex] = newValue;
   }
 }
 
